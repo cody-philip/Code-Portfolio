@@ -1,0 +1,19 @@
+#Adventure
+r:Start:Start of the adventure:
+r:Juncture:Central Juncture:
+r:Room_1:Left Wing Room:
+r:Room_2:Right Wing Room:
+r:End:End of the adventure:
+e:Start:Juncture:North:South:
+e:Juncture:Room_1:North West:South East:
+e:Juncture:Room_2:North East:South West:
+e:Juncture:End:North:South:
+e:Room_1:Room_2:East:West:
+s:Start:
+p:Player:The player character:5:
+m:Slime:A Common Slime Monster:2:Start:
+i:Rock:A rock:r:Start:
+i:Key:A Key:r:Room_1:
+i:Stick:A Stick:r:Juncture:
+i:Sword:An iron Sword:c:Chest:
+c:Chest:A plain wooden chest:Start:

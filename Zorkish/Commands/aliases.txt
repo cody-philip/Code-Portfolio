@@ -1,0 +1,28 @@
+north:go
+south:go
+west:go
+east:go
+north east:go
+north west:go
+south east:go
+south west:go
+up:go
+down:go
+n:go
+e:go
+w:go
+s:go
+ne:go
+se:go
+nw:go
+sw:go
+go:go
+help:help
+inventory:inventory
+look:look
+look at:look at
+look in:look in
+alias:alias
+debug_tree:debug_tree
+take:take
+take from:take from

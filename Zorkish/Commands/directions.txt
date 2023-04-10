@@ -1,0 +1,18 @@
+north:north
+south:south
+west:west
+east:east
+north east:north east
+north west:north west
+south east:south east
+south west:south west
+up:up
+down:down
+n:north
+e:east
+w:west
+s:south
+ne:north east
+se:south east
+nw:north west
+sw:south west
