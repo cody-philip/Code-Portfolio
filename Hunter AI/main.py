@@ -8,12 +8,12 @@ from world import World
 from agent import Agent, AGENT_MODES  # Agent with seek, arrive, flee and pursuit
 
 
-def on_mouse_press(x, y, button):
+def on_mouse_press(x, y, button, modifiers):
     if button == 1:  # left
         world.target = Vector2D(x, y)
 
 
-def on_key_press(symbol):
+def on_key_press(symbol, modifiers):
     if symbol == KEY.P:
         world.paused = not world.paused
     elif symbol == KEY.A:
